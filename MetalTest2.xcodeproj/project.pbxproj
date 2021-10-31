@@ -13,6 +13,36 @@
 		F492069D272D29950051C001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F492069B272D29950051C001 /* Main.storyboard */; };
 		F492069F272D29980051C001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F492069E272D29980051C001 /* Assets.xcassets */; };
 		F49206A2272D29980051C001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49206A0272D29980051C001 /* LaunchScreen.storyboard */; };
+		F49206AC272D2A6E0051C001 /* VideoQuad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206AA272D2A6E0051C001 /* VideoQuad.swift */; };
+		F49206AD272D2A6E0051C001 /* VideoTextureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206AB272D2A6E0051C001 /* VideoTextureCache.swift */; };
+		F49206BD272D2A8D0051C001 /* Primitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206AE272D2A8B0051C001 /* Primitives.swift */; };
+		F49206BE272D2A8D0051C001 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206AF272D2A8B0051C001 /* Node.swift */; };
+		F49206BF272D2A8D0051C001 /* VideoTextureSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206B0272D2A8B0051C001 /* VideoTextureSource.swift */; };
+		F49206C0272D2A8D0051C001 /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206B1272D2A8C0051C001 /* Mesh.swift */; };
+		F49206C1272D2A8D0051C001 /* Texture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206B2272D2A8C0051C001 /* Texture.swift */; };
+		F49206C2272D2A8D0051C001 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206B3272D2A8C0051C001 /* Time.swift */; };
+		F49206C3272D2A8D0051C001 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206B4272D2A8C0051C001 /* Scene.swift */; };
+		F49206C4272D2A8D0051C001 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206B5272D2A8C0051C001 /* Renderer.swift */; };
+		F49206C5272D2A8D0051C001 /* ModelConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206B6272D2A8C0051C001 /* ModelConstants.swift */; };
+		F49206C6272D2A8D0051C001 /* FPSCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206B7272D2A8C0051C001 /* FPSCounter.swift */; };
+		F49206C7272D2A8D0051C001 /* Uniforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206B8272D2A8C0051C001 /* Uniforms.swift */; };
+		F49206C8272D2A8D0051C001 /* BasicVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206B9272D2A8C0051C001 /* BasicVertex.swift */; };
+		F49206C9272D2A8D0051C001 /* PerpsectiveCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206BA272D2A8C0051C001 /* PerpsectiveCamera.swift */; };
+		F49206CA272D2A8D0051C001 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206BB272D2A8C0051C001 /* Material.swift */; };
+		F49206CB272D2A8D0051C001 /* BufferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206BC272D2A8D0051C001 /* BufferManager.swift */; };
+		F49206D4272D2B540051C001 /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206CD272D2B530051C001 /* Sphere.swift */; };
+		F49206D5272D2B540051C001 /* AABB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206CE272D2B530051C001 /* AABB.swift */; };
+		F49206D6272D2B540051C001 /* Ray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206CF272D2B530051C001 /* Ray.swift */; };
+		F49206D7272D2B540051C001 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206D0272D2B530051C001 /* Math.swift */; };
+		F49206D8272D2B540051C001 /* Mat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206D1272D2B540051C001 /* Mat.swift */; };
+		F49206D9272D2B540051C001 /* Quaternion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206D2272D2B540051C001 /* Quaternion.swift */; };
+		F49206DA272D2B540051C001 /* Vec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206D3272D2B540051C001 /* Vec.swift */; };
+		F49206DC272D2BF10051C001 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49206DB272D2BF10051C001 /* Example.swift */; };
+		F49206DE272D2C460051C001 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F49206DD272D2C460051C001 /* Shader.metal */; };
+		F4B096D7272DF9EF00E6E879 /* cubes.mov in Resources */ = {isa = PBXBuildFile; fileRef = F4B096D6272DF9EF00E6E879 /* cubes.mov */; };
+		F4B096DB272E0B0100E6E879 /* OperationChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B096DA272E0B0100E6E879 /* OperationChain.swift */; };
+		F4B096DD272E0B5800E6E879 /* MetalCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B096DC272E0B5800E6E879 /* MetalCamera.swift */; };
+		F4B096DF272E334A00E6E879 /* RotationOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B096DE272E334A00E6E879 /* RotationOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +54,36 @@
 		F492069E272D29980051C001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49206A1272D29980051C001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49206A3272D29980051C001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49206AA272D2A6E0051C001 /* VideoQuad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoQuad.swift; sourceTree = "<group>"; };
+		F49206AB272D2A6E0051C001 /* VideoTextureCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTextureCache.swift; sourceTree = "<group>"; };
+		F49206AE272D2A8B0051C001 /* Primitives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Primitives.swift; sourceTree = "<group>"; };
+		F49206AF272D2A8B0051C001 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		F49206B0272D2A8B0051C001 /* VideoTextureSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTextureSource.swift; sourceTree = "<group>"; };
+		F49206B1272D2A8C0051C001 /* Mesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mesh.swift; sourceTree = "<group>"; };
+		F49206B2272D2A8C0051C001 /* Texture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Texture.swift; sourceTree = "<group>"; };
+		F49206B3272D2A8C0051C001 /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		F49206B4272D2A8C0051C001 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		F49206B5272D2A8C0051C001 /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		F49206B6272D2A8C0051C001 /* ModelConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelConstants.swift; sourceTree = "<group>"; };
+		F49206B7272D2A8C0051C001 /* FPSCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPSCounter.swift; sourceTree = "<group>"; };
+		F49206B8272D2A8C0051C001 /* Uniforms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Uniforms.swift; sourceTree = "<group>"; };
+		F49206B9272D2A8C0051C001 /* BasicVertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicVertex.swift; sourceTree = "<group>"; };
+		F49206BA272D2A8C0051C001 /* PerpsectiveCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerpsectiveCamera.swift; sourceTree = "<group>"; };
+		F49206BB272D2A8C0051C001 /* Material.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
+		F49206BC272D2A8D0051C001 /* BufferManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferManager.swift; sourceTree = "<group>"; };
+		F49206CD272D2B530051C001 /* Sphere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sphere.swift; sourceTree = "<group>"; };
+		F49206CE272D2B530051C001 /* AABB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AABB.swift; sourceTree = "<group>"; };
+		F49206CF272D2B530051C001 /* Ray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ray.swift; sourceTree = "<group>"; };
+		F49206D0272D2B530051C001 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		F49206D1272D2B540051C001 /* Mat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mat.swift; sourceTree = "<group>"; };
+		F49206D2272D2B540051C001 /* Quaternion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quaternion.swift; sourceTree = "<group>"; };
+		F49206D3272D2B540051C001 /* Vec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vec.swift; sourceTree = "<group>"; };
+		F49206DB272D2BF10051C001 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		F49206DD272D2C460051C001 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+		F4B096D6272DF9EF00E6E879 /* cubes.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = cubes.mov; sourceTree = "<group>"; };
+		F4B096DA272E0B0100E6E879 /* OperationChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationChain.swift; sourceTree = "<group>"; };
+		F4B096DC272E0B5800E6E879 /* MetalCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalCamera.swift; sourceTree = "<group>"; };
+		F4B096DE272E334A00E6E879 /* RotationOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +116,8 @@
 		F4920694272D29950051C001 /* MetalTest2 */ = {
 			isa = PBXGroup;
 			children = (
+				F4B096D6272DF9EF00E6E879 /* cubes.mov */,
+				F49206A9272D2A1C0051C001 /* Game */,
 				F4920695272D29950051C001 /* AppDelegate.swift */,
 				F4920697272D29950051C001 /* SceneDelegate.swift */,
 				F4920699272D29950051C001 /* ViewController.swift */,
@@ -65,6 +127,42 @@
 				F49206A3272D29980051C001 /* Info.plist */,
 			);
 			path = MetalTest2;
+			sourceTree = "<group>";
+		};
+		F49206A9272D2A1C0051C001 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F49206CE272D2B530051C001 /* AABB.swift */,
+				F49206D1272D2B540051C001 /* Mat.swift */,
+				F49206D0272D2B530051C001 /* Math.swift */,
+				F49206D2272D2B540051C001 /* Quaternion.swift */,
+				F49206CF272D2B530051C001 /* Ray.swift */,
+				F49206CD272D2B530051C001 /* Sphere.swift */,
+				F49206D3272D2B540051C001 /* Vec.swift */,
+				F49206B9272D2A8C0051C001 /* BasicVertex.swift */,
+				F49206BC272D2A8D0051C001 /* BufferManager.swift */,
+				F49206B7272D2A8C0051C001 /* FPSCounter.swift */,
+				F49206BB272D2A8C0051C001 /* Material.swift */,
+				F49206B1272D2A8C0051C001 /* Mesh.swift */,
+				F49206B6272D2A8C0051C001 /* ModelConstants.swift */,
+				F49206AF272D2A8B0051C001 /* Node.swift */,
+				F49206BA272D2A8C0051C001 /* PerpsectiveCamera.swift */,
+				F49206AE272D2A8B0051C001 /* Primitives.swift */,
+				F49206B5272D2A8C0051C001 /* Renderer.swift */,
+				F49206B4272D2A8C0051C001 /* Scene.swift */,
+				F49206B2272D2A8C0051C001 /* Texture.swift */,
+				F49206B3272D2A8C0051C001 /* Time.swift */,
+				F49206B8272D2A8C0051C001 /* Uniforms.swift */,
+				F49206B0272D2A8B0051C001 /* VideoTextureSource.swift */,
+				F49206AA272D2A6E0051C001 /* VideoQuad.swift */,
+				F49206AB272D2A6E0051C001 /* VideoTextureCache.swift */,
+				F49206DB272D2BF10051C001 /* Example.swift */,
+				F49206DD272D2C460051C001 /* Shader.metal */,
+				F4B096DA272E0B0100E6E879 /* OperationChain.swift */,
+				F4B096DC272E0B5800E6E879 /* MetalCamera.swift */,
+				F4B096DE272E334A00E6E879 /* RotationOperation.swift */,
+			);
+			path = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +225,7 @@
 				F49206A2272D29980051C001 /* LaunchScreen.storyboard in Resources */,
 				F492069F272D29980051C001 /* Assets.xcassets in Resources */,
 				F492069D272D29950051C001 /* Main.storyboard in Resources */,
+				F4B096D7272DF9EF00E6E879 /* cubes.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +236,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49206AD272D2A6E0051C001 /* VideoTextureCache.swift in Sources */,
+				F49206CA272D2A8D0051C001 /* Material.swift in Sources */,
+				F49206DA272D2B540051C001 /* Vec.swift in Sources */,
+				F49206C1272D2A8D0051C001 /* Texture.swift in Sources */,
+				F4B096DD272E0B5800E6E879 /* MetalCamera.swift in Sources */,
+				F49206C2272D2A8D0051C001 /* Time.swift in Sources */,
+				F49206BD272D2A8D0051C001 /* Primitives.swift in Sources */,
+				F49206D5272D2B540051C001 /* AABB.swift in Sources */,
+				F49206AC272D2A6E0051C001 /* VideoQuad.swift in Sources */,
+				F49206DC272D2BF10051C001 /* Example.swift in Sources */,
+				F49206C4272D2A8D0051C001 /* Renderer.swift in Sources */,
 				F492069A272D29950051C001 /* ViewController.swift in Sources */,
+				F49206DE272D2C460051C001 /* Shader.metal in Sources */,
+				F49206BF272D2A8D0051C001 /* VideoTextureSource.swift in Sources */,
+				F4B096DB272E0B0100E6E879 /* OperationChain.swift in Sources */,
+				F49206D8272D2B540051C001 /* Mat.swift in Sources */,
+				F49206D9272D2B540051C001 /* Quaternion.swift in Sources */,
+				F49206C8272D2A8D0051C001 /* BasicVertex.swift in Sources */,
 				F4920696272D29950051C001 /* AppDelegate.swift in Sources */,
+				F4B096DF272E334A00E6E879 /* RotationOperation.swift in Sources */,
+				F49206C5272D2A8D0051C001 /* ModelConstants.swift in Sources */,
+				F49206C6272D2A8D0051C001 /* FPSCounter.swift in Sources */,
+				F49206D6272D2B540051C001 /* Ray.swift in Sources */,
+				F49206C3272D2A8D0051C001 /* Scene.swift in Sources */,
+				F49206D4272D2B540051C001 /* Sphere.swift in Sources */,
+				F49206C7272D2A8D0051C001 /* Uniforms.swift in Sources */,
+				F49206C0272D2A8D0051C001 /* Mesh.swift in Sources */,
+				F49206C9272D2A8D0051C001 /* PerpsectiveCamera.swift in Sources */,
 				F4920698272D29950051C001 /* SceneDelegate.swift in Sources */,
+				F49206BE272D2A8D0051C001 /* Node.swift in Sources */,
+				F49206CB272D2A8D0051C001 /* BufferManager.swift in Sources */,
+				F49206D7272D2B540051C001 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
